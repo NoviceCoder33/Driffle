@@ -1,0 +1,202 @@
+.LandingPage{ 
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center,#003366,#0C0C0C 45%,#0C0C0C);
+}
+
+.Typography{
+    width: 60%;
+    align-items: center;
+    z-index: 1;
+}
+.LandingHeading{
+font-family: Roobert;
+font-size: 64px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+.LandingParagraph{
+font-family: Roobert;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #9F9F9F;
+
+}
+.visitButton{
+    font-family: Roobert;
+    border-color:#9F9F9F;
+    border: solid 1px #9F9F9F;
+    border-radius:0.5rem;
+    font-weight: 600;
+    font-size: small;
+    color:#fff;
+    background-color: #212121;
+    padding: 5px;
+    margin-top: 3rem;
+    margin-left:45%;
+    text-align: center;
+}
+.innerCircle{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    height:360px;
+    width: 360px;
+    border: dashed 1px #9F9F9F;
+    border-radius: 50%;
+}
+.innerImg{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: circle 20s linear infinite;
+     animation: circle 20s linear infinite;
+     animation-direction: reverse;
+}
+@keyframes circle {
+    0% {
+      transform: rotate(0deg)translate(-180px)rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg)translate(-180px)rotate(0deg);
+    }
+  }
+  
+  .middleCircle{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    height:460px;
+    width: 460px;
+    border: dashed 1px #9F9F9F;
+    border-radius: 50%;
+}
+  .middleImg{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: rotate 30s linear infinite;
+     animation: rotate 30s linear infinite;
+     animation-direction: reverse;
+}
+
+.middleImg2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: rotate 30s linear infinite;
+     animation: rotate 30s linear infinite;
+     animation-direction: reverse;
+     animation-delay: 10s;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg)translate(-230px)rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg)translate(-230px)rotate(0deg);
+    }
+  }
+
+  .outerCircle{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    height:560px;
+    width: 560px;
+    border: dashed 1px #9F9F9F;
+    border-radius: 50%;
+}
+
+.outerImg{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: rotation 40s linear infinite;
+     animation: rotation 40s linear infinite;
+     animation-direction: reverse;
+     
+}  
+
+.outerImg2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: rotation 40s linear infinite;
+     animation: rotation 40s linear infinite;
+     animation-direction: reverse;
+     animation-delay: 10s;
+}  
+
+.outerImg3{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: rotation 40s linear infinite;
+     animation: rotation 40s linear infinite;
+     animation-direction: reverse;
+     animation-delay: 20s;
+}  
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg)translate(-280px)rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg)translate(-280px)rotate(0deg);
+    }
+  }
